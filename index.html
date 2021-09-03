@@ -1,15 +1,23 @@
 <!DOCTYPE html>
 <html>
-<title>Aunt Betty's Portfolio for Card Website</title>
+<title>Water Color Cards by Betty Wilson</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
 <!-- icon library-->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!--fontawesome kit -->
+
+<script src="https://kit.fontawesome.com/26d4a64054.js" crossorigin="annoymous" 
+></script>
 <!-- icon link-->
 <link rel="icon" href="Images/Handdrawn Circle Logo.png">
 <style>
+a {
+  text-decoration: none;
+}
+
  body,
  h1,
  h2,
@@ -35,12 +43,14 @@
 }
 
 .fa-facebook {
-  background: #3B5998;
+  
+  background: #3B5998; 
   color: white;
 }
 
 .fa-instagram {
-  background: #125688;
+  
+  background: #125688; 
   color: white;
 }
 
@@ -51,6 +61,13 @@
  .w3-bar-block .w3-bar-item {
   padding: 20px
  }
+/*
+ .betty-image {
+
+  border-radius: 50%; 
+box-shadow: 25px 25px 50px 0 white inset, -25px -25px 50px 0 white inset; 
+ } */
+
 </style>
 
 <body>
@@ -67,8 +84,10 @@
  <div class="w3-top">
   <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
    <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+   <!-- 
    <div class="w3-right w3-padding-16">Shopping Cart</div>
-   <div class="w3-center w3-padding-16">Betty's Cards</div>
+   -->
+   <div class="w3-center w3-padding-16">Water Color Cards by Betty Wilson</div>
   </div>
  </div>
 
@@ -78,56 +97,50 @@
   <!-- First Photo Grid-->
   <div class="w3-row-padding w3-padding-16 w3-center" id="food">
    <div class="w3-quarter">
-    <img src="Images/pexels-karolina-grabowska-4466076.jpg" alt="Hello Spring" style="width:100%">
-    <h3>Greeting Card</h3>
-    <p>$3.99</p>
-   <input type="image" src="Images/shopping-bag.png" name="Cart" height="25px" width="20px" onclick="AddtoCart()">
+    <img src="Images/meadow.jpg" alt="Meadow"   style="width:100%">
+    <h3> 5x7 Card w/Envelope</h3>
+    <h4><i> Meadow</i></h4>
+   
    </div>
    <div class="w3-quarter">
-    <img src="Images/pexels-karolina-grabowska-4466076.jpg" alt="With Love" style="width:100%">
-    <h3>Greeting Card</h3>
-  <p>$3.99</p>
-  <p a href="Shopping Cart/shoppingcart.html">Add to cart.</p> 
+    <img src="Images/byTheLake.png" alt="By the Lake" style="width:100%">
+    <h3> 5x7 Card w/Envelope</h3>
+    <h4><i>By the Lake</i></h4>
+
    </div>
    <div class="w3-quarter">
-    <img src="Images/pexels-karolina-grabowska-4466076.jpg" alt="Hello You!" style="width:100%" >
-    <h3>Greeting Card</h3>
-    <p>$3.99</p>
-    <p>Add to cart.</p>
+    <img src="Images/autumn.png" alt="Autumn" style="width:100%" >
+    <h3> 5x7 Card w/Envelope</h3>
+    <h4><i>Autumn</i></h4>
    </div>
    <div class="w3-quarter">
-    <img src="Images/pexels-karolina-grabowska-4466076.jpg" alt="Good Morning" style="width:100%">
-    <h3>Greeting Card</h3>
-    <p>$3.99</p>
-    <p>Add to cart.</p>
+    <img src="Images/pond.png" alt="Pond" style="width:100%">
+    <h3> 5x7 Card</h3>
+   <h4><i>Pond</i></h4>
    </div>
   </div>
 
   <!-- Second Photo Grid-->
   <div class="w3-row-padding w3-padding-16 w3-center">
    <div class="w3-quarter">
-    <img src="Images/pexels-karolina-grabowska-4466076.jpg" alt="Popsicle" style="width:100%">
-    <h3>Greeting Card</h3>
-    <p>$3.99</p>
-    <p>Add to cart.</p>
+    <img src="Images/evergreen.png" alt="Evergreen" style="width:100%">
+    <h3>5x7 Card w/Envelope</h3>
+    <h4><i>Evergreen</i></h4>
    </div>
    <div class="w3-quarter">
-    <img src="Images/pexels-karolina-grabowska-4466076.jpg" alt="Salmon" style="width:100%">
-    <h3>Greeting Card </h3>
-    <p>$3.99</p>
-    <p>Add to cart.</p>
+    <img src="Images/pinkFlower.png" alt="Dogwood" style="width:100%">
+    <h3>5x7 Card </h3>
+    <h4><i>Dogwood</i></h4>
    </div>
    <div class="w3-quarter">
-    <img src="Images/pexels-karolina-grabowska-4466076.jpg" alt="Sandwich" style="width:100%">
-    <h3>Greeting Card</h3>
-    <p>$3.99</p>
-    <p>Add to cart.</p>
+    <img src="Images/winter.png" alt="Winter" style="width:100%">
+    <h3>5x7 Card w/Envelope </h3>
+    <h4><i>Winter</i></h4>
    </div>
    <div class="w3-quarter">
-    <img src="Images/pexels-karolina-grabowska-4466076.jpg" alt="Croissant" style="width:100%">
-    <h3>Greeting Card </h3>
-      <p>$3.99</p>
-      <p>Add to cart.</p>
+    <img src="Images/cat.png" alt="Purple Cat" style="width:100%">
+    <h3> 5x7 Card w/Envelope</h3>
+     <h4><i>Purple Cat <small>(art supplies not included)</small></i></h4>
    </div>
   </div>
 
@@ -150,14 +163,18 @@
   <!-- About Section -->
   <div class="w3-container w3-padding-32 w3-center">
    <h3>About Me</h3><br>
-   <img src="Images/pexels-cottonbro-4936359.jpg" alt="Me" class="w3-image" style="display:block;margin:auto" width="800" height="533">
+   
+   <img src="Images/profile.png" alt="profile picture" class="w3-image" style="display:block;margin:auto" width="800" height="533">
+   
    <div class="w3-padding-32">
+    
+    <img src="Images/smallBetty.jpg" alt="profile picture" class="w3-image betty-image" style="display:block;margin:auto" width="200" height="250">
+    
     <h4><b>Betty Wilson</b></h4>
+    
     <h6><i>Handpainted Cards</i></h6>
-    <p>Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest of lorem
-     ipsum and mauris neque quam blog. I want to share my world with you. Praesent tincidunt sed tellus ut rutrum. Sed
-     vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. Praesent tincidunt sed
-     tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+    
+    <p>We are in Kamiah, ID. Please fell free to contact me for details, questions or orders. We also do wholesale.</p> 
    </div>
   </div>
   <hr>
@@ -167,35 +184,54 @@ w3-padding-32-->
   <footer class="w3-row-padding ">
    <div class="w3-third">
     <h3>CONTACT ME</h3>
-    <div class="phone-number"> 
-    <p>(123) 456- 7890</p>
-</div>
-  
-   <p>email@gmail.com</p>
+    
+      <img src="Images/smallBetty.jpg" class="w3-left w3-margin-right" style="width:50px">
    
+  <a href="tel:417-294-3644" class="btn contact-details"
+      >(417) 294- 3644</a
+    >
+  <a href="artworkbybettywilson@gmail.com" class="btn contact-details"
+      > artworkbybettywilson@gmail.com</a
+    >
+    <!-- 
+<i class="fas fa-mobile-alt"></i> 
+   <i class="fas fa-at"></i>
+   -->
    </div>
 
    <div class="w3-third">
     <h3>TESTIMONIALS</h3>
     <ul class="w3-ul w3-hoverable">
      <li class="w3-padding-16">
-      <img src="Images/pexels-andrea-piacquadio-774909.jpg" class="w3-left w3-margin-right" style="width:50px">
-      <span class="w3-large">Lory</span><br>
-      <span>"Great cards! I get them every year."</span>
+       
+    
+      
+      <span class="w3-large">Tanya Smith</span><br>
+      <span>"[Betty's] cards are incredibly beautiful and the card stock is high quality. The [pictures] don't do them justice! They are so pretty, I'm not sure if I want to use them."</span>
      </li>
+     <!-- 
      <li class="w3-padding-16">
       <img src="Images/pexels-andrea-piacquadio-3824771.jpg" class="w3-left w3-margin-right" style="width:50px">
       <span class="w3-large">Peet</span><br>
       <span>"Wonderful experience!"</span>
      </li>
+     -->
     </ul>
    </div>
 
    
    <div class="w3-third w3-serif">
     <h3>SOCIAL MEDIA</h3>
-    <a href="https://www.facebook.com" class="fa fa-facebook"></a>
-    <a href="https://www.instagram.com" class="fa fa-instagram"></a>
+    <a href="https://www.facebook.com/bettywilson2009/" class="fa fa-facebook"
+    target="_blank" rel="noopener noreferrer" 
+    >
+      
+    </a>
+    <a href="https://www.instagram.com/betty8434wilson" class="fa fa-instagram"
+    target="_blank" rel="noopener noreferrer"
+    >
+      
+    </a>
     <!-- 
     <p>
      <span class="w3-tag w3-black w3-margin-bottom">Travel</span> <span
